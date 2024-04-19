@@ -1,0 +1,9 @@
+language = "bash"
+run = "bash main.sh"
+entrypoint = "GREETING.md"
+
+[deployment]
+run = ["bash", "main.sh"]
+
+[env]
+GREETING = "Hello from Defense Unicorns!"
